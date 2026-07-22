@@ -4,7 +4,7 @@ A vibe-coded trading dashboard web app for monitoring and evaluating trading per
 
 - **Almost entirely client-side.** Trades are seeded on first load and persisted only in `localStorage`. No login, no accounts.
 - **One server touchpoint:** `app/api/quote/route.ts`, a stateless proxy for live public stock quotes (Yahoo Finance). It relays prices only — it never sees or stores trade data.
-- **Dark warm theme** (charcoal background, terracotta accent), fully responsive, no horizontal page scroll.
+- **Dark theme** (near-black background, blue accent), fully responsive, no horizontal page scroll.
 
 ## Stack
 
