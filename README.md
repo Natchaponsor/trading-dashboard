@@ -1,6 +1,6 @@
 # Trading Dashboard
 
-A trading journal web app for monitoring and evaluating trading performance — dashboard, trade log, trade detail, calendar heatmap, and analytics, all cross-filterable in real time.
+A vibe-coded trading dashboard web app for monitoring and evaluating trading performance.
 
 - **Almost entirely client-side.** Trades are seeded on first load and persisted only in `localStorage`. No login, no accounts.
 - **One server touchpoint:** `app/api/quote/route.ts`, a stateless proxy for live public stock quotes (Yahoo Finance). It relays prices only — it never sees or stores trade data.
